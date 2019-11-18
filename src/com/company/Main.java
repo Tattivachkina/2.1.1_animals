@@ -6,6 +6,10 @@ public class Main {
         Animals predator = new Animals("Sam", "mixed", 8);
         WestWolf wolf = new WestWolf("John","grey", 5);
         Dog husky = new Dog ("Logic", "white", 1, 12);
+        predator.eat();
+        predator.walk();
         husky.eat();
+        husky.walk();
+        wolf.eat();
     }
 }

@@ -9,7 +9,8 @@ public class Dog extends Animals {
     public void eat() {
         System.out.println("Dog eat less than WestWolf");
     }
-    public void hunt (Dog change){
-        change.life();
+
+    public void walk (){
+        System.out.println("Dog walk in the morning");
     }
 }

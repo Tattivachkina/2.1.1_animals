@@ -12,7 +12,7 @@ public class Animals {
         this.color = color;
     }
 
-    public void setAge(int age) {
+    public void setAge (int age) {
         this.age = age;
     }
 
@@ -36,6 +36,9 @@ public class Animals {
         this.age = 0;
     }
     public void eat() {
-        System.out.println("eat");
+        System.out.println("All animals eat");
+    }
+    public void walk (){
+        System.out.println("Animals  walk");
     }
 }
